@@ -1,10 +1,10 @@
 {
   "name": "stupid-database",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "A very small, lightweight database that uses JSON to store key-value pairs",
-  "repository": "https://gitlab.com/BarkingDog/stupid-database",
+  "repository": "https://github.com/wait-what/stupid-database",
   "license": "MIT",
-  "author": "barkingdog",
+  "author": "Wait_What_",
   "main": "index.js"
 }

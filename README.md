@@ -16,7 +16,7 @@ const stupidDatabase = require('stupid-database')
 // 1. String, path to the JSON
 // 2. Number, duration between writes in ms (optional). 100 ms by default
 const db = new stupidDatabase('./db.json', 100)
-    .then(database => { // Resolved when the DB is loaded. Returns the database
+    .then(() => { // Resolved when the DB is loaded
         db.set('foo', 'bar') // => db
 
         db.has('foo') // => true 
@@ -25,3 +25,6 @@ const db = new stupidDatabase('./db.json', 100)
     .catch(console.error)
 ```
 For more info, refer to [Map documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+## License
+This project is licensed under [MIT](https://github.com/wait-what/stupid-database/blob/master/LICENSE)
