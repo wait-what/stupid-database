@@ -1,6 +1,6 @@
 {
   "name": "stupid-database",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "A very small, lightweight database that uses JSON to store key-value pairs",
   "repository": "https://github.com/wait-what/stupid-database",
